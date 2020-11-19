@@ -1,0 +1,135 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #3a7bd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#global-content{
+    display: flex;
+}
+
+nav{
+    display: block;
+    background-color: #0003057a;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#content{
+    margin-top: 40px;
+    border: rgba(255, 255, 255, 0.514) 2px solid;
+    max-width: 50%;
+    border-radius: 20px;
+}
+
+#content-left{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-item{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-item input , button{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    background-color: #ffffff44;
+}
+
+.form-item input::placeholder{
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.form-item input:hover{
+    color: rgba(255, 255, 255, 0.541);
+    border: white 1px solid;
+    transform: scale(1.05);
+}
+
+
+#content-right{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button, a{
+    background-color: #0003057a;
+    color: white;
+    transition: 0.5s;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: white 1px solid;
+}
+
+.a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: white 1px solid;
+}
+
+#info-person{
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#info-person tr{
+    margin: 0 auto;
+}
+
+#info-person tr:nth-child(2n){
+    background-color: #ffffff44;
+}
+
+#info-person tr:nth-child(2n+1){
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#info-person td{
+    text-align: center;
+    padding: 5px 20px;
+    margin: 5px 20px;
+}
+
+
+.info-person-title{
+    color: white;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Contactos</h1>
+    </nav>
+
+    <div id="global-content">
+        <div id="content-left">
+            <div id="content">
+                <h2>Agregar</h2>
+                <form id="registry" method="dialog">
+                    <div class="form-item">
+                        <input type="text" placeholder="Nombre" name="name">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="Apellidos" name="last_name">
+                    </div>
+                    <div class="form-item">
+                        <input type="date" placeholder="Fecha de Nacimiento" name="birthdate">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="Direccion" name="adress">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="Celular" name="phone">
+                    </div>
+                    <div class="form-item">
+                        <button class="button" id="send">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="content-right">
+            <table id="info-person">
+                <tbody>
+                    <tr>
+                        <td class="info-person-title">Nombre</td>
+                        <td class="info-person-title">Apellidos</td>
+                        <td class="info-person-title">Celular</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="show.html" class="button">Ver Detalles</a>
+        </div>
+    </div>
+</body>
+
+</html>
